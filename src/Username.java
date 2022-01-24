@@ -10,7 +10,7 @@ public class Username {
         String username = sc.next();
         String password = sc.next();
 
-        if(username.equals("Arjun")&password.equals("12345"))
+        if(username.equals("Arjun")&&password.equals("12345"))
             System.out.println("Login Successful");
         else
             System.out.println("Invalid username and pass");
